@@ -1,0 +1,208 @@
+/* CSS Document */
+
+
+h3{
+font: Georgia, "Times New Roman", Times, serif;
+font-size: 15px;
+}
+h4{
+    font:           bold 2.8em/1.2em 'Segoe UI', 'Lucida Grande', Arial, Helvetica, sans-serif;
+font-size:          15px;
+}
+.blue{
+color:#03508b;
+}
+.clear {
+clear:left;
+}
+.bann {
+width:1050px;
+height:400px;
+margin:auto;
+}
+.blanc{
+width:1050px;
+height:50px;
+background-color:#fff;
+
+}
+.contgrille {
+background-color:#fff;
+width:1050px;
+height:auto;
+margin:auto;
+margin-top:-13px;
+}
+.conteneurgrille {
+width:950px;
+height:auto;
+margin:auto;
+}
+.contcolones {
+width:900px;
+height:500px;
+}
+.colhaut {
+width:900px;
+height:75px;
+background-color:#e6e6e6;
+}
+.contdest {
+width:300px;
+height:75px;
+float:left;
+}
+.dest {
+width:280px;
+height:25px;
+font:normal 0.8em/1.4em Georgia, "Times New Roman", Times, serif;
+font-size:13px;
+text-align:center;
+margin-top:27px;
+}
+.nb {
+width:100px;
+height:25px;
+font: normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:14px;
+text-align:center;
+margin-top:25px;
+float:left;
+}
+.colones1 {
+width:900px;
+height:50px;
+background-color:#f6f6f6;
+}
+.contrip{
+width:300px;
+height:50px;
+float:left;
+}
+.trip{
+width:280px;
+height:25px;
+font:normal 0.8em/1.4em Georgia, "Times New Roman", Times, serif;
+font-size:14px;
+margin-top:15px;
+margin-left:10px;
+}
+.contpriresa{
+width:100px;
+height:50px;
+float:left;
+}
+.price{
+width:100px;
+height:25px;
+font: normal 1.8em/1.2em 'Segoe UI', 'Lucida Grande', Arial, Helvetica, sans-serif;
+font-size:13px;
+text-align:center;
+margin-top:15px;
+float:left;
+}
+.reserv{
+width:100px;
+height:25px;
+font: normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:13px;
+text-align:center;
+margin-top:15px;
+}
+.contotal{
+width:900px;
+height:55px;
+color:fff;
+}
+.total{
+width:175px;
+height:55px;
+font: normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:10px;
+color:#fff;
+float:left;
+}
+.go{
+width:auto;
+height:37px;
+font: normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:18px;
+margin-top:18px;
+margin-left:40px;
+float:left;
+}
+.colones2 {
+width:900px;
+height:50px;
+background-color:#ffffff;
+}
+/* -------------------------------------------- */
+/* ---------------Fin de Page Footer---------- */
+/* ------------------------------------------ */
+.conteneurfin {
+width:1050px;
+height:430px;
+margin:auto;
+margin-top:0px;
+}
+.backfin2 {
+background:url(../../images/images-bannieres/backend2.jpg);
+width:1050px;
+height:430px;
+margin-top:0px;
+}
+.textfin {
+width:250px;
+height:50px;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:      18px;
+color:#333;
+margin-left:15px;
+margin-top:25px;
+float:left;
+}
+.textfin2 {
+width:700px;
+height:50px;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:      18px;
+color:#333;
+margin-left:15px;
+margin-top:25px;
+float:left;
+}
+.textfin3 {
+width:250px;
+height:230px;
+font:"Times New Roman", Times, serif;
+font-size:      14px;
+color:#666;
+margin-left:15px;
+margin-top:0px;
+float:left;
+}
+.textfin4 {
+width:700px;
+height:230px;
+font:"Times New Roman", Times, serif;
+font-size:      14px;
+color:#666;
+margin-left:15px;
+margin-top:0px;
+float:left;
+}
+.textfin5 {
+width:700px;
+height:75px;
+font:"Times New Roman", Times, serif;
+text-align:center;
+font-size:      12px;
+color:#666;
+margin:auto;
+margin-top:40px;
+}
+.acceuil {
+width:200px;
+height:50px;
+margin-left:850px;
+}

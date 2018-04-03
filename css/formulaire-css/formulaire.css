@@ -1,0 +1,74 @@
+/* ------------------------------------------------- */
+/* CSS Document Date de Création le : Décembre 2011 */
+/* ------------------------------------------------------------------ */
+/* CSS pour définition du style du Formulaire de Reservations Rapide */
+/* ---------------------------------------------------------------- */
+/* Création Webmaster Fredo-Yacine-Barry pour First Class Shuttle */
+/* ------------------------------------------------------------- */
+
+.conteneurformu {
+background:url(../../images/images-design/bg-page.jpg);
+width:1050px;
+height:500px;
+margin:auto;
+}
+.divfrom {
+    font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:15px;
+line-height:25px;
+color:#FFFFFF;
+width:300px;
+height:200px;
+float:left;
+margin-left:50px;
+margin-top:25px;
+}
+.divto {
+    font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:15px;
+line-height:25px;
+color:#FFFFFF;
+width:300px;
+height:200px;
+float:left;
+margin-left:20px;
+margin-top:25px;
+}
+.divchoi{
+    font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:15px;
+line-height:25px;
+color:#FFFFFF;
+width:300px;
+height:215px;
+float:left;
+margin-left:50px;
+}
+.divpassag{
+    font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:15px;
+line-height:25px;
+color:#FFFFFF;
+width:300px;
+height:215px;
+float:left;
+margin-left:20px;
+}
+.clear {
+clear:left;
+}
+.divco1 {
+background:url(../../images/images-bannieres/ipad.png);
+width:350px;
+height:200px;
+float:left;
+margin-left:25px;
+margin-top:25px;
+}
+.divco2 {
+width:350px;
+height:200px;
+float:left;
+margin-left:25px;
+margin-top:15px;
+}

@@ -1,0 +1,113 @@
+/* ---------------------------------------------------- */
+/* CSS Document Date de Création le : 20 décembre 2011 */
+/* -------------------------------------------------- */
+/* CSS pour définition du style de la page */
+/* --------------------------------------------------------------- */
+/* Création Webmaster Fredo-Yacine-Barry pour First Class Shuttle */
+/* ------------------------------------------------------------- */
+
+/* ---------------------------------- */
+/* Reset */
+/* -------------------------------- */
+@charset "utf-8";
+
+@import url('reset.css');
+/* ---------------------------------- */
+/* Reset */
+/* -------------------------------- */
+
+/* -------------------------- */
+/* Background de Fond (noir) */
+/* ------------------------ */
+
+body{
+background:url(../../images/images-design/bg-fond.jpg);
+}
+a { color: #03508b; text-decoration:none; } 
+a:hover { color: #0480e0; }
+
+/* ------------------------------------------------- */
+/* Configuration des Balises H1, H2, H3, H4, H5, H6 */
+/* ----------------------------------------------- */
+.title{
+width:auto;
+height:102px;
+margin-left:25px;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:          #5b5b5b;
+}
+.title2{
+width:500 px;
+height:102px;
+margin-left:25px;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:          #5b5b5b;
+float:left;
+}
+.logo {
+    color:          #5b5b5b;
+}
+.claim {
+    font-size:      1.2em;
+    font-style:     italic;
+    color:          #bbb;
+    margin:         0 0 1em 0;
+}
+.mute {
+    font-weight:    normal;
+    color:          #9c9c9c;
+	text-align:      justify;
+	font-size:16px;
+	padding-left:25px;
+	padding-right:50px;
+}
+.matt {
+    font:           bold 1.8em/1.2em 'Segoe UI', 'Lucida Grande', Arial, Helvetica, sans-serif;
+	font-size:      13px;
+    color:          #9c9c9c;
+	text-align:      justify;
+}
+h1{
+    font:           bold 2.8em/1.2em 'Segoe UI', 'Lucida Grande', Arial, Helvetica, sans-serif;
+    color:          #ffffff;
+    margin:         0;
+    padding:        1em 0 0.1em 0;
+	font-size:20px;
+}
+h2 {
+    font:           bold 1.4em/1.2em 'Segoe UI', 'Lucida Grande', Arial, Helvetica, sans-serif;
+    color:          #fff;
+	font-size:      25px;
+
+}
+h3 {
+    font:           bold 1em/1.2em 'Segoe UI', 'Lucida Grande', Arial, Helvetica, sans-serif;
+    font-size:      20px;
+	color:          #ffffff;
+}
+h4{
+    font:           bold 2.8em/1.2em 'Segoe UI', 'Lucida Grande', Arial, Helvetica, sans-serif;
+font-size:          15px;
+}
+h5{
+margin-top:-20px;
+text-align:center;
+font-size:17px;
+}
+h6{
+margin-top:0px;
+margin-left:10px;
+}
+.yellow{
+color:#ffb000;
+}
+.grey{
+color:#3a3a3a;
+}
+.blue{
+color:#0480e0;
+}
+.space{
+width:auto;
+height:10px;
+}

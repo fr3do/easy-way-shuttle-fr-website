@@ -1,0 +1,71 @@
+/* CSS Document */
+
+.pics {  
+    height:  700px;  
+    width:   377px;  
+    padding: 0;  
+    margin:  0;  
+} 
+ 
+.pics img {  
+    padding: 15px;  
+    border:  1px solid #ccc;  
+    background-color: #eee;  
+    width:  700px; 
+    height: 377px; 
+    top:  0; 
+    left: 0 
+} 
+
+
+
+.slideshow 
+{
+margin-top:0px;
+height: 700px; 
+width: 377px;
+}
+
+
+
+.slideshow img 
+{
+padding: 0px; 
+border: 0px solid #ccc; 
+background-color: #eee; 
+}
+
+.picspet {  
+    height:  239px;  
+    width:   178px;  
+    padding: 0;  
+    margin:  0;  
+} 
+ 
+.picspet img {  
+    padding: 15px;  
+    border:  1px solid #ccc;  
+    background-color: #eee;  
+    width:  239px; 
+    height: 178px; 
+    top:  0; 
+    left: 0 
+} 
+
+
+
+.slideshowpet 
+{
+margin-top:1px;
+height: 350px; 
+width: 178px;
+}
+
+
+
+.slideshowpet img 
+{
+padding: 0px; 
+border: 5px solid #fdfcfc; 
+background-color: #eee; 
+}

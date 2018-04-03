@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* ---------------------------------- */
+/* CSS Document pour Menu Navigation */
+/* -------------------------------- */
+/* First Class Suttle */
+/* ----------------- */
+@import url('reset.css');
+#nav
+{
+background: url(../../images/images-design/slice.png);
+width:1050px;
+height:78px;
+margin:auto;
+margin-top:0px;
+}
+#navigation 
+{
+margin-left:0px;
+}
+#navigation li
+{
+
+float:left;
+display:block;
+}
+#navigation li a
+{
+background-image:url(../../images/images-design/sprite.jpg);
+display: block;
+outline: none;
+position: relative;
+height: 78px;
+text-decoration: none;
+width: auto;
+}
+#navigation .reser 
+{
+background-position:0px 0px;
+width:150px;
+height:78px;
+}
+#navigation .point 
+{
+background-position:-150px 0px;
+width:150px;
+height:78px;
+}
+#navigation .presta 
+{
+background-position:-300px 0px;
+width:150px;
+height:78px;
+}
+#navigation .vehi 
+{
+background-position:-450px 0px;
+width:150px;
+height:78px;
+}
+#navigation .infos 
+{
+background-position:-600px 0px;
+width:150px;
+height:78px;
+}
+#navigation .liens 
+{
+background-position:-750px 0px;
+width:150px;
+height:78px;
+}
+#navigation .contact 
+{
+background-position:-900px 0px;
+width:150px;
+height:78px;
+}
+#navigation a .hover {
+background: transparent  url(../../images/images-design/sprite.jpg);
+display:block ;
+opacity: 0;
+position: relative;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+}
+#navigation .reser .hover {
+background-position: -0px -78px;
+}
+#navigation .point .hover{
+background-position: -150px -78px;
+}
+#navigation .presta .hover {
+background-position: -300px -78px;
+}
+#navigation .vehi .hover {
+background-position: -450px -78px;
+}
+#navigation .infos .hover {
+background-position: -600px -78px;
+}
+#navigation .liens .hover {
+background-position: -750px -78px;
+}
+#navigation .contact .hover {
+background-position: -900px -78px;
+}
+/* ---------------- */
+/* Fin du CSS Menu */
+/* -------------- */
+
+
+/* ------------------------- */
+/* Trais de Séparation Menu */
+/* ----------------------- */
+.trais {
+background: url(../../images/images-design/trais.png);
+width:1050px;
+height:9px;
+margin-top:0px;
+margin:auto;
+}
+.trais2 {
+background: url(../../images/images-design/trais2.png);
+width:1050px;
+height:9px;
+margin-top:0px;
+margin:auto;
+}
+/* ----------------------- */
+/* Fin de Séparation Menu */
+/* --------------------- */

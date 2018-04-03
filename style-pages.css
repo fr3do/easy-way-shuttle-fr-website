@@ -1,0 +1,1024 @@
+/* ---------------------------------------------------- */
+/* CSS Document Date de Création le : 20 décembre 2011 */
+/* -------------------------------------------------- */
+/* CSS pour définition du style de la page */
+/* --------------------------------------------------------------- */
+/* Création Webmaster Fredo-Yacine-Barry pour First Class Shuttle */
+/* ------------------------------------------------------------- */
+
+/* ---------------------------------- */
+/* Reset */
+/* -------------------------------- */
+@charset "utf-8";
+
+@import url('reset.css');
+/* ---------------------------------- */
+/* Reset */
+/* -------------------------------- */
+
+/* -------------------------- */
+/* Background de Fond (noir) */
+/* ------------------------ */
+
+body{
+background:url("images/images-design/bg-fond.jpg");
+}
+a { color: #03508b; text-decoration:none; } 
+a:hover { color: #0480e0; }
+
+.contflags2 {
+width:1050px;
+height:50px;
+margin:auto;
+}
+.contflags {
+width:1050px;
+height:35px;
+margin:auto;
+}
+.divflags2 {
+width:600px;
+height:50px;
+margin-left:450px;
+}
+.divflags {
+width:350px;
+height:35px;
+margin-left:275px;
+float:left;
+}
+.flags2 {
+width:48px;
+height:48px;
+float:left;
+margin-left:10px;
+}
+.flags {
+width:32px;
+height:32px;
+float:left;
+margin-left:10px;
+}
+.dinfos {
+width:auto;
+height:15px;
+margin-top:10px;
+margin-left:25px;
+float:left;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:#fff;
+}
+/* ------------------------------------------------- */
+/* Configuration des Balises H1, H2, H3, H4, H5, H6 */
+/* ----------------------------------------------- */
+.title{
+width:auto;
+height:102px;
+margin-left:25px;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:          #5b5b5b;
+}
+.titlevalid{
+width:400px;
+height:102px;
+margin-left:25px;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:          #03508b;
+float:left;
+}
+.logopaypal{
+width:200px;
+height:50px;
+margin-left:340px;
+margin-top:10px;
+float:left;
+}
+.divpaypal{
+width:200px;
+height:50px;
+margin-left:500px;
+margin-top:100px;
+}
+.title2{
+width:500 px;
+height:102px;
+margin-left:25px;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:          #5b5b5b;
+float:left;
+}
+.logo {
+    color:          #5b5b5b;
+}
+.logo2 {
+    color:          #03508b;
+}
+.claim {
+    font-size:      1.2em;
+    font-style:     italic;
+    color:          #bbb;
+    margin:         0 0 1em 0;
+}
+.claim2 {
+    font-size:      1.2em;
+    font-style:     italic;
+	font-size:      14px;
+    color:          #bbb;
+    margin:         0 0 1em 0;
+}
+.claim3 {
+    font-size:      1.2em;
+    font-style:     italic;
+    color:          #03508b;
+    margin:         0 0 1em 0;
+}
+.matt {
+    font:           normal 1.8em/1.2em Georgia, "Times New Roman", Times, serif;
+	font-size:      14px;
+    color:          #fff;
+	text-align:      justify;
+}
+.mute {
+    font-weight:    normal 1.8em/1.2em Georgia, "Times New Roman", Times, serif;
+    color:          #fff;
+	text-align:     justify;
+	font-size:14px;
+	padding-left:25px;
+	padding-right:50px;
+	line-height:25px;
+}
+h1{
+    font:           bold 2.8em/1.2em 'Segoe UI', 'Lucida Grande', Arial, Helvetica, sans-serif;
+    color:          #fff;
+    margin:         0;
+    padding:        1em 0 0.1em 0;
+	font-size:20px;
+}
+h2 {
+    font:           bold 1em/1.2em'Segoe UI', 'Lucida Grande', Arial, Helvetica, sans-serif;
+    color:          #000;
+	font-size:      20px;
+	color:#03508b;
+	text-align:center;
+
+}
+h3 {
+    font:           bold 1em/1.2em 'Segoe UI', 'Lucida Grande', Arial, Helvetica, sans-serif;
+    font-size:      20px;
+	color:          #fff;
+}
+h4{
+font:           bold 2.8em/1.2em 'Segoe UI', 'Lucida Grande', Arial, Helvetica, sans-serif;
+font-size:          15px;
+color:#03508b;
+text-align:center;
+}
+h5{
+margin-top:-20px;
+text-align:center;
+font-size:17px;
+}
+h6{
+font:           bold 2.8em/1.2em 'Segoe UI', 'Lucida Grande', Arial, Helvetica, sans-serif;
+font-size:          15px;
+}
+.yellow{
+color:#ffb000;
+}
+.grey{
+color:#999999;
+}
+.gris{
+color:#ccc;
+}
+.blue{
+color:#2a95f8;
+}
+.white{
+color:#fff;
+}
+.space{
+width:auto;
+height:10px;
+}
+.separ {
+width:1035px;
+height:5px;
+margin-left:7px;
+}
+.separ2 {
+width:1035px;;
+height:5px;
+margin-top:15px;
+margin-left:7px;
+}
+.separ3 {
+width:1035px;;
+height:5px;
+margin-top:38px;
+margin-left:7px;
+}
+/* ----------------------------- */
+/* --------Menu Collant-------- */
+/* --------------------------- */
+.sticky {
+width:250px;
+height:250px;
+margin-top:100px;
+margin-left:100px;
+}
+.stickytext1 {
+width:auto;
+height:50px;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:16px;
+color:#fff;
+float:left;
+margin-left:10px;
+margin-top:17px;
+}
+.stickimage1{
+background:url(images/images-design/tarifs-reservations.png);
+width:69px;
+height:66px;
+float:left;
+}
+.stickimage2{
+background:url(images/images-design/contact.png);
+width:69px;
+height:66px;
+float:left;
+}
+.stickimage3{
+background:url(images/images-design/info-trafic.png);
+width:69px;
+height:66px;
+float:left;
+}
+/* -------------------------- */
+/* --------DIGICLOCK-------- */
+/* ------------------------ */
+.digi {
+width:500px;
+height:300px;
+margin-left:1370px;
+margin-top:-1000px;
+}
+
+/* -------------------------- */
+/* Background de Page (gris) */
+/* ------------------------ */
+.fondback {
+background:url(images/background.jpg);
+width:1050px;
+margin-top:0px;
+margin:auto;
+}
+.contsocial {
+width:autopx;
+height:50px;
+margin-top:25px;
+}
+.socialin {
+width:autopx;
+height:50px;
+}
+
+/* ------------------- */
+/* Bannière en Entete */
+/* ----------------- */
+
+.banniere {
+background-image: url(images/images-bannieres/easy-way-shuttle.jpg);
+width:1050px;
+height:400px;
+margin:auto;
+}
+
+/* ----------------------- */
+/* Conteneur Cycle Slider */
+/* --------------------- */
+.conteneurslide {
+width:1050px;
+height:377px;
+margin:auto;
+}
+.divslide {
+width:700px;
+height:377px;
+float:left;
+}
+
+/* ------------------------- */
+/* Colone Visite et Contact */
+/* ----------------------- */
+.divcontvis {
+width:350px;
+height:377px;
+float:left;
+}
+.divcontact {
+background:url(images/images-bannieres/contact.jpg);
+width:350px;
+height:188px;
+}
+.divis {
+width:350px;
+height:188px;
+}
+
+/* ---------------------------- */
+/* Séparation après Formulaire */
+/* -------------------------- */
+.trais3 {
+background: url(images/images-design/trais3.png);
+margin-top:0px;
+margin:auto;
+width:1050px;
+height:4px;
+}
+
+/* ----------------------------------------------- */
+/* Conteneur Corps de La Page Acceuil Reservation */
+/* --------------------------------------------- */
+.conteneurbienv {
+background:url(images/images-design/bg-page.jpg);
+width:1050px;
+height:670px;
+margin:auto;
+}
+.divreser {
+width:700px;
+height:670px;
+float:left;
+}
+.divresa {
+background:url(images/images-design/fleches.png);
+width:600px;
+height:100px;
+margin-left:20px;
+margin-top:25px;
+}
+.textresa {
+background:url(images/images-design/bg-div.jpg);
+width:635px;
+height:380px;
+    font:           normal 0.8em/1.4em Verdana, Helvetica, sans-serif;
+    font-size:      13px;
+	color:#000;
+
+text-align:         justify;
+line-height: 17px;
+margin-top:40px;
+margin-left:15px;
+padding-top:15px;
+padding-left:15px;
+padding-right:15px;
+}
+.divdepa {
+background:url(images/images-design/depart.png);
+width:700px;
+height:100px;
+margin-top:10px;
+}
+.submit {
+width:176px;
+height:54px;
+margin-top:29px;
+}
+
+/* --------------------------------------------- */
+/* --------Conteneur Colone Disney-Asterix----- */
+/* ------------------------------------------- */
+.divcontoon {
+width:350px;
+height:590px;
+float:left;
+}
+.divlog1 {
+background:url(images/images-bannieres/disneylogo.png);
+width:350px;
+height:75px;
+float:left;
+margin-top:10px;
+}
+.divdisne {
+background:url(images/images-bannieres/disneyland.jpg);
+width:200px;
+height:198px;
+float:left;
+margin-top:10px;
+margin-left:75px;
+}
+.divlog2 {
+background:url(images/images-bannieres/asterixlogo.png);
+width:350px;
+height:75px;
+float:left;
+margin-top:9px;
+}
+.divaster {
+background:url(images/images-bannieres/parc-asterix.jpg);
+width:200px;
+height:198px;
+margin-top:15px;
+float:left;
+margin-left:75px;
+}
+
+/* -------------------------------------------------- */
+/* ------------Pour Le Float-Left------------------- */
+/* ------------------------------------------------ */
+.clear {
+clear:left;
+}
+
+/* -------------------------------------------- */
+/* ---------------Fin de Page Footer---------- */
+/* ------------------------------------------ */
+.conteneurfin {
+width:1050px;
+height:500px;
+margin:auto;
+margin-top:0px;
+}
+.backfin {
+background:url(images/images-bannieres/backend.jpg);
+width:1050px;
+height:451px;
+margin-top:0px;
+}
+.backfin2 {
+background:url(images/images-bannieres/backend2.jpg);
+width:1050px;
+height:451px;
+margin-top:0px;
+}
+.textfin {
+width:250px;
+height:250px;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:      14px;
+margin-left:425px;
+margin-top:60px;
+float:left;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------Page Point de Rencontre espace texte---------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------- */
+.contatent {
+background:url(images/images-design/bg-page.jpg);
+width:1050px;
+height:1525px;
+margin:auto;
+}
+.spaceatent{
+background:url(images/images-design/point-de-rencontre.png);
+width:450px;
+height:102px;
+float:left;
+}
+.divatent {
+width:561px;
+height:221px;
+background:url(images/images-bannieres/pas-dattente.jpg);
+float:left;
+margin-left:30px;
+}
+.atent {
+background:url(images/images-bannieres/attente.jpg);
+width:378px;
+height:221px;
+float:left;
+margin-left:50px;
+}
+.bg1{
+background:url(images/images-design/bg-rencontre.png) no-repeat;
+width:500px;
+height:200px;
+margin-left:0px;
+margin-top:40px;
+float:left;
+}
+.textatent {
+width:400px;
+height:60px;
+    font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    font-size:      13px;
+    color:          #fff;
+line-height: 17px;
+margin-top:128px;
+margin-left:50px;
+padding-left:25px;
+padding-right:25px;
+text-align: justify;
+}
+.textatent2 {
+width:300px;
+height:75px;
+    font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    font-size:      13px;
+	color:          #fff;
+line-height: 17px;
+padding-top:0px;
+padding-left:25px;
+padding-right:25px;
+margin-top:125px;
+margin-left:15px;
+text-align: justify;
+}
+.contspantext{
+width:auto;
+height:75px;
+}
+.spantext {
+width:550px;
+height:50px;
+margin-top:0px;
+    font:           italic 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    font-size:      14px;
+	color:          #fff;
+line-height: 17px;
+margin-top:25px;
+padding-left:30px;
+float:left;
+}
+.spantext2 {
+width:370px;
+height:25px;
+    font:           italic 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    font-size:      14px;
+	color:          #fff;
+line-height: 17px;
+margin-top:42px;
+padding-left:5px;
+margin-left:55px;
+float:left;
+}
+.spantext3 {
+width:auto;
+height:50px;
+margin-top:0px;
+    font:           italic 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    font-size:      13px;
+	color:          #bbb;
+line-height: 17px;
+text-align:center;
+padding-top:10px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------Page Point de Rencontre espace aeroports, gares, hotel------------------------------------------ */
+/* ----------------------------------------------------------------------------------------------------------------------- */
+.divcontextpoin {
+width:auto;
+height:75px;
+}
+.textpoin{
+width:561px;
+height:40px;
+float:left;
+    font:           italic 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    font-size:      13px;
+	color:          #fff;
+	padding-left:30px;
+	margin-top:25px;
+}
+.textpoin2{
+width:auto;
+height:25px;
+float:left;
+margin-left:50px;
+margin-top:42px;
+    font:           italic 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    font-size:      13px;
+	color:          #fff;
+}
+.aer{
+background:url(images/images-bannieres/aeroport.jpg);
+width:561px;
+height:221px;
+margin-left:30px;
+float:left;
+}
+.ariv{
+background:url(images/images-bannieres/arrivals.jpg);
+width:378px;
+height:221px;
+float:left;
+margin-left:50px;
+}
+.gar{
+background:url(images/images-bannieres/gares.jpg);
+width:561px;
+height:221px;
+margin-left:30px;
+float:left;
+}
+.ariv2{
+background:url(images/images-bannieres/arrivees.jpg);
+width:378px;
+height:221px;
+float:left;
+margin-left:50px;
+}
+
+.hot {
+background:url(images/images-bannieres/hotel.jpg);
+width:561px;
+height:221px;
+margin-left:30px;
+float:left;
+}
+.ariv3 {
+background:url(images/images-bannieres/lieu-de-travail.jpg);
+width:378px;
+height:221px;
+float:left;
+margin-left:50px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* --------------------------------------------Page Nos Préstations espace texte------------------------------------ */
+/* ---------------------------------------------------------------------------------------------------------------- */
+.contpart1 {
+background:url(images/images-design/bg-page.jpg);
+width:1050px;
+height:2050px;
+margin:auto;
+}
+.contban {
+width:1050px;
+height:300px;
+margin:auto;
+}
+.contmir {
+width:1000px;
+height:250px;
+margin:auto;
+}
+.contmers {
+background:url(images/images-bannieres/shuttle.jpg);
+width:561px;
+height:221px;
+margin-top:15px;
+margin-left:5px;
+float:left;
+}
+.contlim {
+background:url(images/images-bannieres/limousine.jpg);
+width:378px;
+height:221px;
+margin-top:15px;
+margin-left:50px;
+float:left;
+}
+.divtextavpresta {
+width:1050px;
+height:600px;
+}
+.textavpresta {
+width:775px;
+height:510px;
+margin-left:30px;
+border: solid 1px;
+border-color:#0480e0;
+margin-top:50px;
+background:url(images/images-design/bg-div.jpg);
+    font:           normal 0.8em/1.4em Verdana, Helvetica, sans-serif;
+    font-size:      13px;
+    color:          #000;
+padding-left:25px;
+padding-top:25px;
+padding-right:15px;
+float:left;
+}
+.contlogopresta {
+width:auto;
+height:460px;
+float:left;
+margin-left:15px;
+}
+.logopresta {
+background:url(images/images-design/logo-first-class-shuttle.png);
+width:167px;
+height:129px;
+margin-top:75px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* -------------------------------------------Page Nos Préstations Partie 2----------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+.contpresta{
+background:url(images/images-design/bg-page.jpg);
+width:1050px;
+height:1100px;
+margin:auto;
+}
+.backwin1 {
+width:490px;
+height:182px;
+background:url(images/images-design/bgwin-presta.png);
+margin-top:50px;
+margin-left:30px;
+}
+
+.backwin2 {
+width:490px;
+height:182px;
+background:url(images/images-design/bgwin-presta.png);
+margin-top:-158px;
+margin-left:530px;
+}
+.textacceuil {
+width:185px;
+height:132px;
+margin-top:-158px;
+margin-left:52px;
+border:solid 1px;
+border-color:#666666;
+}
+
+.textacceuil2 {
+width:185px;
+height:132px;
+margin-top:-158px;
+margin-left:552px;
+border:solid 1px;
+border-color:#666666;
+}
+.text {
+width:250px;
+height:132px;
+margin-left:245px;
+margin-top:-134px;
+border:solid 1px;
+border-color:#666666;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:          #bbb;
+font-size:13px;
+line-height:15px;
+}
+.text2 {
+width:250px;
+height:132px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+margin-left:745px;
+margin-top:-134px;
+border:solid 1px;
+border-color:#666666;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:          #bbb;
+font-size:13px;
+line-height:15px;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ----------------------------------------------Page nos véhicules------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------- */
+.contdivnum {
+background:url(images/images-design/bg-page.jpg);
+width:1050px;
+height:2300px;
+margin:auto;
+}
+.divnum1 {
+width:1050px;
+height:250px;
+margin:auto;
+margin-top:15px;
+}
+.contnumdroit {
+width:378px;
+height:221px;
+margin-top:15px;
+margin-left:225px;
+float:left;
+}
+.contnumgauche {
+width:550px;
+height:221px;
+
+margin-left:25px;
+float:left;
+}
+.contpicdroit {
+width:378px;
+height:221px;
+margin-top:15px;
+margin-left:65px;
+float:left;
+}
+.contpicgauche {
+width:378px;
+height:221px;
+margin-top:15px;
+margin-left:35px;
+float:left;
+}
+.divpicdroit {
+width:auto;
+height:65px;
+margin-left:710px;
+}
+.divpicgauche {
+width:auto;
+height:65px;
+margin-left:32px;
+}
+.textinfodroit {
+padding-left:10px;
+padding-top:5px;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:          #fff;
+font-size:      14px;
+line-height:17px;
+text-align: justify;
+}
+.textinfogauche {
+padding-left:10px;
+padding-top:5px;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:          #fff;
+font-size:      14px;
+line-height:20px;
+text-align: justify;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------ Page infos pratiques ------------------------------------------------*/
+/* -------------------------------------------------------------------------------------------------------------- */
+.conteneurinfo {
+background-image:url(images/images-design/bg-page.jpg);
+width:1050px;
+height:1500px;
+margin:auto;
+}
+
+.textetitle{
+width:auto;
+height:50px;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-style:     italic;
+color:          #bbb;
+font-size:      14px;
+padding-left:25px;
+}
+.pictraj1 {
+width:260px;
+height:200px;
+margin-top:0px;
+margin-left:25px;
+margin-right:15px;
+float:left;
+}
+.pictraj {
+width:260px;
+height:260px;
+margin-top:0px;
+margin-left:25px;
+margin-right:15px;
+float:left;
+}
+.pictraj3 {
+width:353px;
+height:225px;
+margin-top:0px;
+margin-left:25px;
+margin-right:15px;
+float:left;
+}
+.divespace {
+width:auto;
+height:50px;
+}
+.divtraj {
+width:auto;
+height:450px;
+}
+.divtraj2 {
+width:auto;
+height:400px;
+}
+.divtraj3 {
+width:auto;
+height:415px;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------- Page Liens Utiles ----------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------------------------- */
+.conteneurutil {
+background-image:url(images/images-design/bg-page.jpg);
+width:1050px;
+height:1475px;
+margin:auto;
+}
+.contutil {
+width:850px;
+height:430px;
+margin:auto;
+}
+.contdetailutil {
+width:250px;
+height:380px;
+border:solid 1px;
+border-color:#bbb;
+margin-left:25px;
+margin-top:25px;
+float:left;
+}
+.titrutil{
+width:250px;
+height:50px;
+color:#fff;
+text-align:center;
+padding-top:15px;
+}
+.picutil{
+width:230px;
+height:140px;
+margin-left:10px;
+}
+.textutil{
+width:222px;
+height:130px;
+border:solid 1px;
+border-color:#666;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:          #fff;
+font-size:      12px;
+margin-left:10px;
+margin-top:20px;
+padding-left:3px;
+padding-right:3px;
+padding-top:5px;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------- Page En Construction -------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+.construction {
+width:1024px;
+height:768px;
+margin:auto;
+margin-top:50px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------- Page Validation ------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+.contvalid {
+background-image:url(images/images-design/bg-val.jpg);
+width:1050px;
+height:600px;
+margin:auto;
+}
+.contvalidinfos {
+background-image:url(images/images-design/bg-val.jpg);
+width:1050px;
+height:900px;
+margin:auto;
+}
+.textevalid {
+width:700px;
+height:600px;
+margin:auto;
+margin-top:50px;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:          #000;
+font-size:      16px;
+}
+.textevalidinfos {
+width:700px;
+height:800px;
+margin:auto;
+margin-top:50px;
+font:           normal 0.8em/1.4em 'Segoe UI', Tahoma, Arial, 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:          #000;
+font-size:      16px;
+}
+.divalid1 {
+width:500px;
+height:150px;
+}
+.divalid2 {
+width:500px;
+height:150px;
+}
+.divalid3 {
+width:500px;
+height:100px;
+}
+.divalid4 {
+width:500px;
+height:130px;
+}
+.divalid5 {
+width:150px;
+height:50px;
+margin-top:30px;
+}
+
+
